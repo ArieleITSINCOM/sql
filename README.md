@@ -1,6 +1,7 @@
 # sql
 
 Here will be saved the SQL queries
+There queries will be divided date
 
 ## table of contents
 
