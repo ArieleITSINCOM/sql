@@ -18,7 +18,7 @@ colore
 
 if (@colore is null)
 BEGIN
-	raiserror('il parametro @colore non può essere null',-1,-1,'sp_insertJson')
+	raiserror('il parametro @colore non puï¿½ essere null',-1,-1,'sp_insertJson')
 END
 ELSE
 BEGIN
@@ -30,28 +30,31 @@ declare @j nvarchar(max), @jAnimali nvarchar(max)
 
 
 
-set @jAnimali = 
+--set @jAnimali = 
 
-	JSON_MODIFY(
-			JSON_MODIFY('{}','$.nome',@animaleNome),
-				'$.specie',
-				@animaleSpecie)
+--	JSON_MODIFY(
+--			JSON_MODIFY('{}','$.nome',@animaleNome),
+--				'$.specie',
+--				@animaleSpecie)
 	
 	
 	--select @jAnimali, JSON_QUERY(@jAnimali)
 
 set @j = json_modify('{}','$.id',@id)
 
-set @j = JSON_MODIFY(
-				JSON_MODIFY(@j, '$.colore', @colore),
-				'append $.animali',json_query(@jAnimali))
+set @j = JSON_MODIFY(@j, '$.colore', @colore)
 
 
 --select @j		
 	insert into its.json values(@j)
 	
-print 'La registrazione del json è andata a buon fine
+print 'La registrazione del json ï¿½ andata a buon fine
 	
 per verifica:
 SELECT top  100 * FROM its.json ORDER BY id desc'
 END
+/*
+exec its.sp_insertJson @colore = amaranto
+
+
+select top 100 * from its.json*/
