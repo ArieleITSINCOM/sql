@@ -46,3 +46,5 @@ SELECT top  100 * FROM its.json ORDER BY id desc
 exec its.sp_insertJson 'viola'
 exec its.sp_updateJson 'viola','simba','leone'
 exec its.sp_updateJson 'viola','rafiki','babbuino'
+
+select * from its.animali
