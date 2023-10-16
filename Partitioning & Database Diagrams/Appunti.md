@@ -3,7 +3,7 @@
 
 Partition tables: suddivisione di tabelle in "sottotabelle" in base a intervalli di valore, permettono di rintracciare dati più velocemente. Permette anche di droppare solo partizioni di singole tabelle
 
-*esempio completo doc Microsoft:https://learn.microsoft.com/en-us/sql/relational-databases/partitions/create-partitioned-tables-and-indexes?view=sql-server-ver16*
+*[Link esempio completo doc Microsoft](https://learn.microsoft.com/en-us/sql/relational-databases/partitions/create-partitioned-tables-and-indexes?view=sql-server-ver16)*
 
 
 **IL PARTITIONING DEVE ESSERE SPECIFICATO AL MOMENTO DELLA CREAZIONE DELLA TABELLA**
@@ -18,7 +18,7 @@ Si crea una partition function:
 CREATE PARTITION FUNCTION myRangePF1 (int)  
     AS RANGE LEFT FOR VALUES (1, 100, 1000);
 ```
-*docs: https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-function-transact-sql?view=sql-server-ver16*
+*[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-function-transact-sql?view=sql-server-ver16)*
 
 ---
 **STEP 2**)
@@ -29,7 +29,7 @@ CREATE PARTITION SCHEME myRangeps1
     ALL TO ('primary')
 GO
 ```
-*docs:https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-scheme-transact-sql?view=sql-server-ver16*
+*[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-scheme-transact-sql?view=sql-server-ver16)*
 
 ---
 **STEP 3**)
@@ -39,7 +39,7 @@ CREATE TABLE dbo.PartitionTable (col 1 datatime2(0), col2 char(10))
     on myRangePS1 (col1)
 GO
 ```
-*docs: vedi esempio completo*
+*Documentazione: vedi esempio completo*
 
 ---
 **STEP 4**)
@@ -51,7 +51,9 @@ ALTER PARTITION FUNCTION myRangePF1()
     split RANGE ('2022-07-01');
 GO
 ```
-*docs:https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-function-transact-sql?view=sql-server-ver16*
+*[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-function-transact-sql?view=sql-server-ver16)*
+
+---
 
 
 ## Database Diagrams
