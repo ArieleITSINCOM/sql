@@ -41,14 +41,17 @@ GO
 ```
 *docs: vedi esempio completo*
 
-
+---
+**STEP 4**)
 Alterare una partition function:
+
+aggiunge un'ulteriore partizione
 ```SQL
 ALTER PARTITION FUNCTION myRangePF1()
     split RANGE ('2022-07-01');
 GO
 ```
-
+*docs:https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-function-transact-sql?view=sql-server-ver16*
 
 
 ## Database Diagrams
