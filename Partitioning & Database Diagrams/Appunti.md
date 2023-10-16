@@ -10,7 +10,9 @@ Partition tables: suddivisione di tabelle in "sottotabelle" in base a intervalli
 
 **NON È POSSIBILE PARTIZIONARE UNA TABELLA GIA' ESISTENTE**
 
-Per prima cosa è necessario creare una partition function:
+---
+**STEP 1**)
+Si crea una partition function:
 
 ```SQL
 CREATE PARTITION FUNCTION myRangePF1 (int)  
@@ -18,8 +20,9 @@ CREATE PARTITION FUNCTION myRangePF1 (int)
 ```
 *docs: https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-function-transact-sql?view=sql-server-ver16*
 
-
-Si crea un partitioning sulla partition function:
+---
+**STEP 2**)
+Si crea un partition scheme sulla partition function:
 ``` SQL
 CREATE PARTITION SCHEME myRangeps1
     AS partition myRangePF1
@@ -28,14 +31,15 @@ GO
 ```
 *docs:https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-scheme-transact-sql?view=sql-server-ver16*
 
-
+---
+**STEP 3**)
 Creazione tabella con partitioning:
 ``` SQL
 CREATE TABLE dbo.PartitionTable (col 1 datatime2(0), col2 char(10))
     on myRangePS1 (col1)
 GO
 ```
-*docs:*
+*docs: vedi esempio completo*
 
 
 Alterare una partition function:
