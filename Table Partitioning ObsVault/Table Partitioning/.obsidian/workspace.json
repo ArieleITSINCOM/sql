@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Switch Partition (uncertain).md",
+                "file": "Trigger Creation/Table population.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Switch Partition (uncertain).md",
+                "file": "Trigger Creation/Table population.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Switch Partition (uncertain).md",
+                "file": "Trigger Creation/Table population.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Switch Partition (uncertain).md"
+                "file": "Trigger Creation/Table population.md"
               }
             }
           }
@@ -148,12 +148,18 @@
   },
   "active": "76fd84a740bdf8a6",
   "lastOpenFiles": [
+    "Pasted image 20231016124556.png",
+    "Trigger Creation/table creation.md",
+    "Trigger Creation/Table population.md",
+    "Trigger Creation/_01.md",
+    "Create Table con Partitioning.md",
+    "_01.md",
+    "Switch Partition (uncertain).md",
+    "Trigger Creation/Untitled",
+    "Trigger Creation",
     "Partition Scheme.md",
     "MERGE() partition vuote.md",
-    "_01.md",
     "Partition Function.md",
-    "Create Table con Partitioning.md",
-    "Switch Partition (uncertain).md",
     "Premesse.md",
     "Troncare Partitions.md"
   ]
