@@ -3,7 +3,7 @@
 
 Partition tables: suddivisione di tabelle in "sottotabelle" in base a intervalli di valore, permettono di rintracciare dati più velocemente. Permette anche di droppare solo partizioni di singole tabelle
 
-*[Link esempio completo doc Microsoft](https://learn.microsoft.com/en-us/sql/relational-databases/partitions/create-partitioned-tables-and-indexes?view=sql-server-ver16)*
+[Link esempio completo documentazione Microsoft](https://learn.microsoft.com/en-us/sql/relational-databases/partitions/create-partitioned-tables-and-indexes?view=sql-server-ver16)
 
 
 **IL PARTITIONING DEVE ESSERE SPECIFICATO AL MOMENTO DELLA CREAZIONE DELLA TABELLA**
@@ -13,14 +13,14 @@ Partition tables: suddivisione di tabelle in "sottotabelle" in base a intervalli
 ---
 Note:
 - Filegroup: sono raggruppamenti di file, quando si vede *ON PRIMARY* o *ON SECONDARY* si sta dichiarando su che filegroup si lavora (primario o secondario)
-[(*Documentazione*)](https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups?view=sql-server-ver16)
+[(Documentazione)](https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups?view=sql-server-ver16)
 
 ---
 **STEP 1**)
-Si crea una partition function:
+Si crea una partition function, una funzione che essenzialmente restituisce un numero in base al range in cui il record rientra
 
 ```SQL
-CREATE PARTITION FUNCTION myRangePF1 (int)  
+CREATE PARTITION FUNCTION myRangePF1 (int) 
     AS RANGE LEFT FOR VALUES (1, 100, 1000);
 ```
 [Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-function-transact-sql?view=sql-server-ver16)
@@ -31,7 +31,7 @@ Si crea un partition scheme sulla partition function:
 ``` SQL
 CREATE PARTITION SCHEME myRangeps1
     AS PARTITION myRangePF1
-    ALL TO ('primary') -- filegroup dove si stabilisce 
+    ALL TO ('primary') -- filegroup dove si stabilisce crea
 GO
 
 ```
@@ -61,7 +61,7 @@ GO
 ---
 Alterare un partition scheme:
 ``` SQL
-ALTER PARTITION SCHEME myRangePS1 next used [PRIMARY] 
+ALTER PARTITION SCHEME myRangePS1 next used [PRIMARY] -- "next" specifica dove aggiungere la "scatola" in cui va il record
 ALTER PARTITION FUNCTION myRangePF1() SPLIT RANGE (250);
 ```
 
