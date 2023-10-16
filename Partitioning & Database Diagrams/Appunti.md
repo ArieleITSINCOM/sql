@@ -20,6 +20,12 @@ CREATE TABLE dbo.PartitionTable (col 1 datatime2(0), col2 char(10))
     on myRangePS1 (col1)
 GO
 ```
+Alterare una partition function:
+```SQL
+ALTER PARTITION FUNCTION myRangePF1()
+split RANGE ('2022-07-01');
+GO
+```
 
 ## Database Diagrams
 
