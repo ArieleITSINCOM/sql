@@ -28,6 +28,7 @@ CREATE PARTITION SCHEME myRangeps1
     AS partition myRangePF1
     ALL TO ('primary')
 GO
+
 ```
 *[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-scheme-transact-sql?view=sql-server-ver16)*
 
@@ -54,6 +55,7 @@ GO
 *[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-function-transact-sql?view=sql-server-ver16)*
 
 ---
+
 
 
 ## Database Diagrams
