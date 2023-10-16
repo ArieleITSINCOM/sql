@@ -7,3 +7,6 @@ num_articoli smallint,
 id_articolo int not null,
 )
 ```
+
+---
+Prossimo step: [[Table population]]

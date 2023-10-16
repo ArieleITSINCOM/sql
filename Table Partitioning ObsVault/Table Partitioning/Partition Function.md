@@ -13,4 +13,5 @@ CREATE PARTITION FUNCTION myRangePF1 (int)
 
 La partition function si applica sul partition scheme.
 
-Partition Function
+---
+>Prossimo argomento: [[Partition Scheme]]

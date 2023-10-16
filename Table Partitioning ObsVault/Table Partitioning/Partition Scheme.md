@@ -17,6 +17,8 @@ GO
 
 >[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-partition-scheme-transact-sql?view=sql-server-ver16)
 
+
+
 ## ALTER
 
 Alterare un partition scheme:
@@ -29,5 +31,5 @@ ALTER PARTITION FUNCTION myRangePF1() SPLIT RANGE (250);
 
 >[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-scheme-transact-sql?view=sql-server-ver16)
 
-
-Partition Scheme
+---
+>Prossimo argomento:[[Create Table con Partitioning]]

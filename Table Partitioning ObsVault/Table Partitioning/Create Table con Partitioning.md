@@ -9,4 +9,6 @@ GO
 >[Link esempio completo documentazione Microsoft](https://learn.microsoft.com/en-us/sql/relational-databases/partitions/create-partitioned-tables-and-indexes?view=sql-server-ver16)
 
 
-Create Table con partition
+
+---
+prossimo argomento: [[Switch Partition (uncertain)]]

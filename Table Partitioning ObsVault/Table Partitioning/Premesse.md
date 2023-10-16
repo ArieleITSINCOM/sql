@@ -11,4 +11,5 @@ Note:
 - Filegroup: sono raggruppamenti di file, quando si vede *ON PRIMARY* o *ON SECONDARY* si sta dichiarando su che filegroup si lavora (primario o secondario)[(Documentazione)](https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups?view=sql-server-ver16)
 
 
-Premesse
+---
+Prossimo argomento: [[Partition Function]]
