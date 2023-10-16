@@ -44,18 +44,21 @@ GO
 
 ---
 **STEP 4**)
-Alterare una partition function:
-
-aggiunge un'ulteriore partizione
+Alterare una partition function e aggiunge un'ulteriore partizione:
+(*uncertain*)
 ```SQL
 ALTER PARTITION FUNCTION myRangePF1()
     split RANGE ('2022-07-01');
 GO
 ```
-*[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-function-transact-sql?view=sql-server-ver16)*
+[Documentazione](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-partition-function-transact-sql?view=sql-server-ver16)
 
 ---
-
+Alterare un partition scheme:
+``` SQL
+ALTER PARTITION SCHEME myRangePS1 next used [PRIMARY]
+ALTER PARTITION FUNCTION myRangePF1() SPLIT RANGE (250);
+```
 
 
 ## Database Diagrams
