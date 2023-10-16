@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "e2f9d7bf89fc8125",
+    "id": "ea40e1a91f3e562a",
     "type": "split",
     "children": [
       {
-        "id": "8fb41a3437e6e3a7",
+        "id": "a7dd2925721c6481",
         "type": "tabs",
         "children": [
           {
-            "id": "4b654cd738a3933e",
+            "id": "9957e73e92007b29",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -21,25 +21,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "80f0e22c6647ff8b",
+    "id": "d2e931b6b385fdba",
     "type": "split",
     "children": [
       {
-        "id": "32713ad7544d4b0b",
+        "id": "7788c80c7a187da7",
         "type": "tabs",
         "children": [
           {
-            "id": "fa5515a992d5f6ea",
+            "id": "b3c52ffeb4c8ec33",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "248cfcce5fa09252",
+            "id": "49e298550d8068f2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "936c0a511908cef1",
+            "id": "fcd0b165a528c385",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "4c1f99d9dd9fe76c",
+    "id": "caa923a84d8177a5",
     "type": "split",
     "children": [
       {
-        "id": "dd545f7950ff1762",
+        "id": "d8d006fb7cb51528",
         "type": "tabs",
         "children": [
           {
-            "id": "42a60677e66fc0d2",
+            "id": "68df754060874dc8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Truncate Partitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,19 +92,18 @@
             }
           },
           {
-            "id": "940cc9f771bb9b13",
+            "id": "dfbcf9823525a645",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Truncate Partitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "49b846bb2c7e248e",
+            "id": "c152274b99e4d505",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,13 +114,11 @@
             }
           },
           {
-            "id": "1346778865ddff3f",
+            "id": "c8c5cc1912883876",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Truncate Partitions.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -142,22 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa5515a992d5f6ea",
-  "lastOpenFiles": [
-    "Trigger Creation/Table creation.md",
-    "Partition Function.md",
-    "Trigger Creation/Aggiunta colonna data.md",
-    "Trigger Creation/Table population.md",
-    "Trigger Creation/_01_trigger.md",
-    "Create Table con Partitioning.md",
-    "Truncate Partitions.md",
-    "Partition Scheme.md",
-    "_01_partitioning.md",
-    "Switch Partition (uncertain).md",
-    "Premesse.md",
-    "MERGE() partition vuote.md",
-    "Pasted image 20231016124556.png",
-    "Trigger Creation/Untitled",
-    "Trigger Creation"
-  ]
+  "active": "9957e73e92007b29",
+  "lastOpenFiles": []
 }

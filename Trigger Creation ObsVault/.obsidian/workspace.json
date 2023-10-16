@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "e2f9d7bf89fc8125",
+    "id": "c0d1ac80dd9e3b4e",
     "type": "split",
     "children": [
       {
-        "id": "8fb41a3437e6e3a7",
+        "id": "395acb0fa20042c6",
         "type": "tabs",
         "children": [
           {
-            "id": "4b654cd738a3933e",
+            "id": "8fe4f9b0f7d6553f",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -21,25 +21,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "80f0e22c6647ff8b",
+    "id": "71963580dfae1b07",
     "type": "split",
     "children": [
       {
-        "id": "32713ad7544d4b0b",
+        "id": "3619522fa8caad0e",
         "type": "tabs",
         "children": [
           {
-            "id": "fa5515a992d5f6ea",
+            "id": "394ff5b744e1c774",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "248cfcce5fa09252",
+            "id": "2b83db17633d596b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "936c0a511908cef1",
+            "id": "30930dfec4b4506b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "4c1f99d9dd9fe76c",
+    "id": "07f6f20384f475cb",
     "type": "split",
     "children": [
       {
-        "id": "dd545f7950ff1762",
+        "id": "12303a7f9fcbe758",
         "type": "tabs",
         "children": [
           {
-            "id": "42a60677e66fc0d2",
+            "id": "1366b3d7314139a1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Truncate Partitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,19 +92,18 @@
             }
           },
           {
-            "id": "940cc9f771bb9b13",
+            "id": "74153e37cd25f603",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Truncate Partitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "49b846bb2c7e248e",
+            "id": "a29a8cd6a902e72b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,13 +114,11 @@
             }
           },
           {
-            "id": "1346778865ddff3f",
+            "id": "87f2e1eb9a371acf",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Truncate Partitions.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -142,22 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa5515a992d5f6ea",
+  "active": "8fe4f9b0f7d6553f",
   "lastOpenFiles": [
-    "Trigger Creation/Table creation.md",
-    "Partition Function.md",
-    "Trigger Creation/Aggiunta colonna data.md",
-    "Trigger Creation/Table population.md",
-    "Trigger Creation/_01_trigger.md",
-    "Create Table con Partitioning.md",
-    "Truncate Partitions.md",
-    "Partition Scheme.md",
-    "_01_partitioning.md",
-    "Switch Partition (uncertain).md",
-    "Premesse.md",
-    "MERGE() partition vuote.md",
-    "Pasted image 20231016124556.png",
-    "Trigger Creation/Untitled",
-    "Trigger Creation"
+    "Trigger Creation.md",
+    "Table population.md",
+    "Table creation.md",
+    "Pasted image 20231016144925.png",
+    "Pasted image 20231016144958.png",
+    "Pasted image 20231016124556.png.md",
+    "Aggiunta colonna data.md"
   ]
 }

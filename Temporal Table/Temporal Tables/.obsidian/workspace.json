@@ -1,45 +1,58 @@
 {
   "main": {
-    "id": "e2f9d7bf89fc8125",
+    "id": "824dcd346dcd6ea6",
     "type": "split",
     "children": [
       {
-        "id": "8fb41a3437e6e3a7",
+        "id": "0acf2f71ccd80721",
         "type": "tabs",
         "children": [
           {
-            "id": "4b654cd738a3933e",
+            "id": "0d65c4d42fd90549",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "2e8a90953bfb9671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temporal Tables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "80f0e22c6647ff8b",
+    "id": "7aba5ae324ea1158",
     "type": "split",
     "children": [
       {
-        "id": "32713ad7544d4b0b",
+        "id": "f89a5240869a71e2",
         "type": "tabs",
         "children": [
           {
-            "id": "fa5515a992d5f6ea",
+            "id": "08b17e632b638056",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "248cfcce5fa09252",
+            "id": "07d0bc3161b01caf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +67,7 @@
             }
           },
           {
-            "id": "936c0a511908cef1",
+            "id": "2f469236c5990f96",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "4c1f99d9dd9fe76c",
+    "id": "e843b31619f81047",
     "type": "split",
     "children": [
       {
-        "id": "dd545f7950ff1762",
+        "id": "f923ac0a0ae26f9b",
         "type": "tabs",
         "children": [
           {
-            "id": "42a60677e66fc0d2",
+            "id": "ec28c07aeeccdb7d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Truncate Partitions.md",
+                "file": "Temporal Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,19 +106,19 @@
             }
           },
           {
-            "id": "940cc9f771bb9b13",
+            "id": "e238453bf0c30c09",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Truncate Partitions.md",
+                "file": "Temporal Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "49b846bb2c7e248e",
+            "id": "380a921925ba2f0e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,12 +129,12 @@
             }
           },
           {
-            "id": "1346778865ddff3f",
+            "id": "eb8f070107bc804b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Truncate Partitions.md"
+                "file": "Temporal Tables.md"
               }
             }
           }
@@ -142,22 +155,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa5515a992d5f6ea",
+  "active": "2e8a90953bfb9671",
   "lastOpenFiles": [
-    "Trigger Creation/Table creation.md",
-    "Partition Function.md",
-    "Trigger Creation/Aggiunta colonna data.md",
-    "Trigger Creation/Table population.md",
-    "Trigger Creation/_01_trigger.md",
-    "Create Table con Partitioning.md",
-    "Truncate Partitions.md",
-    "Partition Scheme.md",
-    "_01_partitioning.md",
-    "Switch Partition (uncertain).md",
-    "Premesse.md",
-    "MERGE() partition vuote.md",
-    "Pasted image 20231016124556.png",
-    "Trigger Creation/Untitled",
-    "Trigger Creation"
+    "Temporal Tables.md"
   ]
 }

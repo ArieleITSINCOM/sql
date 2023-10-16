@@ -1,5 +1,4 @@
-![[Pasted image 20231016124556.png]]
-
+![[Pasted image 20231016144925.png]]
 ## quantità articoli:
 
 ``` SQL
