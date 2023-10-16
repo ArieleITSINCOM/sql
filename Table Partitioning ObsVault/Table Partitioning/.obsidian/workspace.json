@@ -11,8 +11,12 @@
             "id": "76fd84a740bdf8a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Switch Partition (uncertain).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Switch Partition (uncertain).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Switch Partition (uncertain).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Switch Partition (uncertain).md"
+              }
             }
           }
         ]
@@ -139,5 +147,14 @@
     }
   },
   "active": "76fd84a740bdf8a6",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Partition Scheme.md",
+    "MERGE() partition vuote.md",
+    "_01.md",
+    "Partition Function.md",
+    "Create Table con Partitioning.md",
+    "Switch Partition (uncertain).md",
+    "Premesse.md",
+    "Troncare Partitions.md"
+  ]
 }
