@@ -61,7 +61,7 @@ GO
 ---
 Alterare un partition scheme:
 ``` SQL
-ALTER PARTITION SCHEME myRangePS1 next used [PRIMARY] -- "next" specifica dove aggiungere la "scatola" in cui va il record
+ALTER PARTITION SCHEME myRangePS1 next used [PRIMARY] -- "next" specifica in che filegroup aggiungere la "scatola" in cui va il record
 ALTER PARTITION FUNCTION myRangePF1() SPLIT RANGE (250);
 ```
 
