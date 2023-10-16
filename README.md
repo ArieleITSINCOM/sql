@@ -1,19 +1,2 @@
-# sql
-
-Here will be saved the SQL queries
-There queries will be divided date
-
-## table of contents
-
-In this page you will find all the links to the sql codes we wrote during the lessons
-
-
-|Documents|Description|
-|---|---|
-||||
-|link1|Description1|
-
-```sql
-SELECT * FROM Sales.Orders
-```
+# **THE FOLDERS WITH THE "*ObsVault*" name are supposed to be opened as "Vaults" of the software Obsidian**
 ![Alt text](image.png)
