@@ -16,7 +16,7 @@ from its.person p
 	on f.$to_id = fp.$node_id
 ```
 
-## 3) es  usando MATCH() (no ANSI-92)
+## 3) es 2 usando MATCH() (no ANSI-92)
 
 ```SQL
 select Person.name + ' -> ' + followedperson.name as link
@@ -36,3 +36,29 @@ create table its.skill (
 ) as node
 ```
 Creiamo anche una tabella di edge *its.competences* con il campo "*Level*" con default a 0
+
+## 5) estrarre persona e relativa skill
+```SQL
+select person.name,skill.[language]
+from 
+	its.skill as skill
+	,its.person as person
+	,its.competence as knows
+where match(person-(knows)->skill)
+```
+
+## 6) data una persona, trovare le sue competenze e trovare chi segue
+
+```SQL
+
+```
+
+## 7)
+```
+
+```
+
+## 8)
+```
+
+```
