@@ -4,18 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "a7dd2925721c6481",
+        "id": "362feca4f72c31d9",
         "type": "tabs",
         "children": [
           {
-            "id": "9957e73e92007b29",
+            "id": "a113077e163d49ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Queries/Tutti path possibili.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dd6aa8a62e6be51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esercizi/Esercizi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27326e4020a5d3b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Queries/conteggio livelli.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "645769e61f0b5677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esercizi/Esercizi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "182e6d1459c219b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Query.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9ab609f70727168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Queries/Seguace di Seguaci.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "629821674d3c8f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Queries/Conteggio seguaci.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Esercizi/Esercizi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Esercizi/Esercizi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Esercizi/Esercizi.md"
+              }
             }
           }
         ]
@@ -138,6 +219,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9957e73e92007b29",
-  "lastOpenFiles": []
+  "active": "9dd6aa8a62e6be51",
+  "lastOpenFiles": [
+    "Queries/conteggio livelli.md",
+    "Queries/Conteggio seguaci.md",
+    "Queries/Seguace di Seguaci.md",
+    "Queries/Tutti i path che conducono a un targhet.md",
+    "Queries/Tutti path possibili.md",
+    "Esercizi/Esercizi.md",
+    "Query.md",
+    "Costruzione Archi.md",
+    "Esercizi",
+    "Costruzione Nodi.md",
+    "Corrispettivo relazionale.md",
+    "Queries",
+    "Immagini/Pasted image 20231017102653.png",
+    "Immagini",
+    "Srotolamento json.md",
+    "Immagini/Pasted image 20231017095613.png",
+    "Immagini/Pasted image 20231017095436.png",
+    "Immagini/Pasted image 20231017094402.png",
+    "Pasted image 20231017095320.png",
+    "Immagini/Pasted image 20231017092327.png",
+    "Immagini/Definizione-di-grafo-in-informatica.jpg",
+    "Grafo.md",
+    "Graph Databases/_01.md"
+  ]
 }
