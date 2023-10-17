@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queries/Tutti path possibili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dd6aa8a62e6be51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Esercizi/Esercizi.md",
+                "file": "Esercizi.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Esercizi/Esercizi.md",
+                "file": "Esercizi.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Esercizi/Esercizi.md",
+                "file": "Esercizi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Esercizi/Esercizi.md",
+                "file": "Esercizi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Esercizi/Esercizi.md"
+                "file": "Esercizi.md"
               }
             }
           }
@@ -219,16 +206,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dd6aa8a62e6be51",
+  "active": "a113077e163d49ce",
   "lastOpenFiles": [
+    "Esercizi.md",
+    "Queries/Tutti path possibili.md",
+    "Costruzione Archi.md",
     "Queries/conteggio livelli.md",
     "Queries/Conteggio seguaci.md",
     "Queries/Seguace di Seguaci.md",
     "Queries/Tutti i path che conducono a un targhet.md",
-    "Queries/Tutti path possibili.md",
-    "Esercizi/Esercizi.md",
     "Query.md",
-    "Costruzione Archi.md",
     "Esercizi",
     "Costruzione Nodi.md",
     "Corrispettivo relazionale.md",

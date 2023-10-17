@@ -29,5 +29,5 @@ La tabella assume questo aspetto:
 
 
 ---
-Prossimo:
+Prossimo:[[Query]]
 Correlato:
