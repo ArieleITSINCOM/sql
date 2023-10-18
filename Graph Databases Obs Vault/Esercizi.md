@@ -81,7 +81,28 @@ note:
 
 
 ```SQL
+create view its.SuggestedLanguages as
+	with a as 
+	(-- elenco delle persone con conoscenze
+		SELECT Person.Name as [Name1], Skill.[Language]
+		FROM its.skill AS Skill,its.person AS Person,its.competence AS Knows
+		WHERE 1=1
+			and MATCH( Person -(Knows)-> Skill )
+	),
+	b as
+	(-- Conoscenze delle persone seguite
+		SELECT Person.Name, FollowedPerson.Name as FollowedPerson, Skill.[Language]
+		FROM its.skill AS Skill,its.person AS Person,its.competence AS Knows,its.Follows AS Follows,its.Person AS FollowedPerson
+		WHERE 1=1
+			and MATCH( Person -(Follows)-> FollowedPerson -(Knows)-> Skill )
+	)
 
+	select b.Name as Target, b.FollowedPerson, b.[Language] as SuggestedLanguage
+	from a right outer join b ON a.[Name1] = b.Name
+	where a.[Language] <> b.[Language] OR a.[Language] is null
+
+
+select * from its.SuggestedLanguages
 ```
 ### extra: persona1, persona2 e skill in comune
 
@@ -100,7 +121,8 @@ where 1=1
 	and match(person -(knows2)-> skill)
 ```
 
-## 8)
+## 8) dato un linguaggio, quali sono tutti i possibili utenti di partenza che possono accedervi (punto più lontano)
+
 ```SQL
 
 ```
